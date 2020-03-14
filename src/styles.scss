@@ -1,1 +1,77 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+.msgdelivered {
+    fill: red;
+    opacity: .5;
+  
+}
+
+.msgundeliverable {
+    fill: green;
+    opacity: .5;
+  
+}
+
+.msgenroute {
+    fill: blue;
+    opacity: .5;
+  
+}
+
+.msgexpired {
+    fill: orangered;
+    opacity: .5;
+  
+}
+
+.msgdelivered:hover {
+    fill: violet;
+    opacity: 1;
+  
+}
+
+
+.msgundeliverable:hover {
+    fill: violet;
+    opacity: 1;
+  
+}
+
+.msgenroute:hover {
+    fill: violet;
+    opacity: 1;
+  
+}
+
+.msgexpired:hover {
+    fill: violet;
+    opacity: 1;
+  
+}
+
+div.tooltip {	
+  position: absolute;			
+  text-align: left;			
+  height: auto;					
+  padding: 5px;				
+  font: 12px sans-serif;	
+  font-weight: normal;	
+  background: #ffffca;	
+  border: 1px;		
+  border-radius: 8px;	
+  border-color: black;		
+  border-style: solid;
+}
+
+.pieChartOuterLabel {
+  font-size: 1em;
+  fill: black;
+  font-weight: bold;
+  font-family: 'Times New Roman, Times, serif';
+}
+
+.legend {
+  font-size: .9em;
+  font-family: 'serif';
+}
